@@ -25,13 +25,23 @@ overflow: hidden;
    background-color:rgb(245, 151, 167);
 }
 
+
 #keys{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     padding: 25px;
-
 }
+
+#last-row {
+    display: grid;
+    grid-template-columns: 25% 25% 50%;
+gap: 10px;
+padding: 25px;
+padding-top: 0;
+}
+
+
 button {
     width: 80px;
     height: 80px;
@@ -42,6 +52,7 @@ button {
     font-size: 2.5rem;
     font-weight: bold;
     cursor: pointer;
+box-shadow: 5px 5px 5px rgba(180, 117, 143, 0.76);
 }
 button:hover {
     background-color: rgb(226, 123, 140);
@@ -49,4 +60,21 @@ button:hover {
 button:active {
     background-color: rgb(247, 104, 128);
 
+}
+
+.operator-btn {
+    background-color:rgb(238, 96, 120);
+}
+.operator-btn:hover {
+    background-color:rgb(233, 60, 89);
+
+}
+
+.operator-btn:active {
+    background-color:rgb(252, 26, 64);
+}
+
+.equal-sign {
+    background-color:rgb(238, 96, 120);
+   width: 4.5em;
 }
